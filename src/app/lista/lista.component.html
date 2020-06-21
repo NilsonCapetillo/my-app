@@ -1,4 +1,7 @@
-<div *ngFor='let auto of autos' id="autos">
-    {{auto.submarca}} / {{auto.modelo}}
+<div class="lista" *ngFor='let auto of autos'>
+    <i class="fa fa-eye fa-3x" (click)="onSelect(auto)"></i>
+    <span>{{auto.descripcion}}</span>
 </div>
-
+<div class="auto-sel">
+    {{autoSeleccionado.marca}} -- {{autoSeleccionado.fecha_registro}}
+</div>
