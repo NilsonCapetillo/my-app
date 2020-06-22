@@ -6,13 +6,15 @@ import { HeaderComponent } from './header/header.component';
 import { VistasComponent } from './vistas/vistas.component';
 import { ListaComponent } from './lista/lista.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TablaComponent } from './tabla/tabla.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     VistasComponent,
-    ListaComponent
+    ListaComponent,
+    TablaComponent
   ],
   imports: [
     BrowserModule,
