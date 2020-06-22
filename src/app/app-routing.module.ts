@@ -12,7 +12,7 @@ const routes: Routes = [
     },
     {
         path: 'tabla',
-        component:TablaComponent
+        component: TablaComponent
     }
 
 ];
