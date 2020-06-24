@@ -5,14 +5,19 @@
     height: 45px;
     border: 3px;
     border-color: rgb(59, 59, 121);
-    border-style: solid;
+    border-style: none;
 
     display: flex;
     justify-content:space-around;
     align-items: center;
 }
-
-#tabla{
+.vistas :hover{
+    color:  black;
+    background-color: #aaa9a9;
+    font-size: 27px;
+    font-family: fantasy;
+}
+.tabla{
     width: 50%;
     height: 45px;
     text-align: center;
@@ -21,14 +26,11 @@
     color:white;
     margin: 0px;
     border:  rgb(59, 59, 121);
-    border: 2px;
-    border-style: initial;
+    border: 0px;
     align-items: center;
 }
-#tabla :hover{
-    color: #aaa9a9;
-}
-#lista{
+
+.lista{
     width: 50%;
     height: 45px;
     text-align: center;
@@ -37,7 +39,7 @@
     color:white;
     margin: 0px;
     border:  rgb(59, 59, 121);
-    border: 2px;
+    border: 0px;
     border-style: hidden;
     align-items: center;
 }
