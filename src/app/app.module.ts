@@ -13,6 +13,7 @@ import { TablaComponent } from './tabla/tabla.component';
     AppComponent,
     HeaderComponent,
     VistasComponent,
+    ListaComponent,
     NgbdModalComponent,
     TablaComponent
   ],
