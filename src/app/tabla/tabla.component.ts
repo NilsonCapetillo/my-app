@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {COUNTRIES} from '../data';
+import {Country} from '../models';
 
 @Component({
   selector: 'app-tabla',
@@ -11,5 +13,5 @@ export class TablaComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  countries = COUNTRIES;
 }
