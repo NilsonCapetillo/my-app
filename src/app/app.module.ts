@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { VistasComponent } from './vistas/vistas.component';
-import { ListaComponent } from './lista/lista.component';
+import { NgbdModalComponent, ListaComponent } from './lista/lista.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TablaComponent } from './tabla/tabla.component';
 
@@ -13,7 +13,7 @@ import { TablaComponent } from './tabla/tabla.component';
     AppComponent,
     HeaderComponent,
     VistasComponent,
-    ListaComponent,
+    NgbdModalComponent,
     TablaComponent
   ],
   imports: [
