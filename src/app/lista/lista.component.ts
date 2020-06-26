@@ -6,7 +6,7 @@ import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'ngbd-modal-content',
-  template:
+  template: `
     <div class="modal-header">
       <h4 class="modal-title"> Hi there!</ h4 >
   <button type="button" class= "close" aria - label="Close"(click) = "activeModal.dismiss('Cross click')" >
@@ -19,18 +19,19 @@ import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
         < div class="modal-footer" >
           <button type="button" class="btn btn-outline-dark"(click) = "activeModal.close('Close click')" > Close < /button>
             < /div>
+            `
 })
 export class NgbdModalContent {
   @Input() name;
 
-  constructor(public activeModal: NgbActiveModal) {}
+  constructor(public activeModal: NgbActiveModal) { }
 }
 @Component({
-  selector: 'app-lista',
+  selector: 'ngbd-modal-component',
   templateUrl: './lista.component.html',
 })
 export class NgbdModalComponent {
-  constructor(private modalService: NgbModal) {}
+  constructor(private modalService: NgbModal) { }
 
   open() {
     const modalRef = this.modalService.open(NgbdModalContent);
